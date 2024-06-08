@@ -12,6 +12,7 @@ export default function Home() {
       <div>
         Hello World
       </div>
+      {/* <img src="./Frame 1.png" alt=""/> */}
       <HeroPage />
       <Features />
       <Gallery />

@@ -13,6 +13,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        'clash-display': [
+          // 'ClashDisplay-Extralight',
+          // 'ClashDisplay-Light',
+          // 'ClashDisplay-Regular',
+          'ClashDisplay-Medium',
+          'ClashDisplay-Semibold',
+          'ClashDisplay-Bold',
+          'ClashDisplay-Variable',
+          'sans-serif',
+        ],
+      },
     },
   },
   plugins: [],
