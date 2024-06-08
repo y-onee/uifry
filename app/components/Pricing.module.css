@@ -1,0 +1,22 @@
+.red {
+    background-color: #FF5555;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 30px;
+    color: white;
+}
+
+.white {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+.head {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 10px;
+}

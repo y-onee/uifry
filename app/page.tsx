@@ -11,9 +11,10 @@ export default function Home() {
     <main>
       <HeroPage />
       <Features />
-      <Gallery />
+
       <Testimonials />
       <Pricing />
+      <Gallery />
       <Contact />
     </main>
   );
