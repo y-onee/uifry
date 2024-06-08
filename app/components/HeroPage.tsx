@@ -3,7 +3,7 @@ import style from "./HeroPage.module.css";
 
 const HeroPage = () => {
   return (
-    <main className='font-clash-display font-medium sticky'>
+    <main className='block font-clash-display font-medium sticky'>
       <nav className="w-100 flex items-center justify-center">
         <section className=" w-5/6 h-[60px] p-6 flex items-center justify-between">
           

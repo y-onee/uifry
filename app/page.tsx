@@ -9,10 +9,6 @@ import Contact from "./components/Contact";
 export default function Home() {
   return (
     <main>
-      <div>
-        Hello World
-      </div>
-      {/* <img src="./Frame 1.png" alt=""/> */}
       <HeroPage />
       <Features />
       <Gallery />
