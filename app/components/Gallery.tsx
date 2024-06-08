@@ -3,7 +3,7 @@ import React from 'react'
 const Gallery = () => {
   return (
     <main>
-      <img src="./Testimonials/Group 1000002356 (1).png" alt="" className='absolute left-0 -z-40' />
+      <img src="./Testimonials/Group 1000002356 (1).png" alt="" className='absolute left-0 -ml-10 -z-40' />
       <section className=' flex column justify-center w-full min-h-screen'>
         
         <img src="./Testimonials/Group 35905 (2).png" alt="" className='absolute left-0 mx-40 my-80'/>
@@ -18,10 +18,13 @@ const Gallery = () => {
           
         </div>
         <div className='flex items-center'>                      
+        <img className='absolute h-64 right-0 mr-40 mt-36' src="./Testimonials/Group 35932 (1).png" alt="" />
             <img src="./Testimonials/3.png" alt="" className='absolute right-0 mx-40 -mt-4 h-2/5'/>
             <img src="./Testimonials/2 (1).png" alt="" className='absolute right-20 mx-32 mt-16 h-2/5'/>
-
+            
             <img src="./Testimonials/1.png" alt="" className='absolute right-40 mr-40 mt-32 h-2/5'/>
+            
+            
           </div>
         </section>
       </section>

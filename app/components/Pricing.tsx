@@ -4,12 +4,12 @@ import style from './Pricing.module.css';
 const Pricing = () => {
   return (
     <main >
-      <section className='w-3/6 mx-32'>
+      <section className='w-2/6 mx-48'>
         <p className='text-[#FF5555]'>FAQ</p>
-        <h1 className='font-bold text-6xl mb-5'>Frequently Asked Questions</h1>
+        <h1 className='font-bold text-5xl mb-5'>Frequently Asked Questions</h1>
       </section>
       <section className='flex justify-center'>
-      <section className='flex w-5/6 items-center justify-center'>
+      <section className='flex w-3/4 items-center justify-center'>
         <div>
           <div className={style.red}>
             <h2 className={style.head}>The best financial accounting app ever!</h2>

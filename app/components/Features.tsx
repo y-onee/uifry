@@ -1,47 +1,47 @@
 import React from 'react'
+import style from './Features.module.css'
 
 const Features = () => {
   return (
     <main className='block min-h-screen'>
-      <section>
-        <div>
-          <img src="./Features/Group 35930.png" alt="" className='absolute z-99999'/>
-          <img src="./Features/Group 35898.png" alt="" className='absolute'/>
-          <img src="./Features/iphone-13-Pro-Front.png" alt="" className='-z-1'/>
+      <section className='h-screen flex justify-center align-middle'>
+        <div className='w-3/6'>
+          <img className='absolute -z-40 -ml-8' src="./Features/Group 35930.png" alt=""/>
+          <img className='absolute h-3/4 mt-8 ml-8' src="./Features/Group 35898.png" alt=""/>
+          <img className='absolute w-96 mt-16 ml-48' src="./Features/iphone-13-Pro-Front.png"/>
           
         </div>
-        <div>
-          <p>FEATURES</p>
-          <h1>Uifry Premium</h1>
+        <div className='flex flex-col mr-20'>
+          <p className='text-[#FF5555]'>FEATURES</p>
+          <h1 className='font-bold text-5xl mb-5'>Uifry Premium</h1>
           <div>
-            <div>
+            <div className={style.head3}>
               <img src="./Features/star-05.png" alt="" />
               <h3>Budgeting Intervals</h3>
             </div>
-            <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+            <p className='my-4  text-gray-600 leading-7'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
           </div>
           <div>
-            <div>
+            <div className={style.head3}>
               <img src="./Features/Icon.png" alt="" />
               <h3>Budgeting Intervals</h3>
             </div>
-            <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+            <p className='my-4  text-gray-600 leading-7'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
           </div>
           <div>
-            <div>
+            <div className={style.head3}>
               <img src="./Features/cube-04.png" alt="" />
               <h3>Budgeting Intervals</h3>
             </div>
-            <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+            <p className='my-4  text-gray-600 leading-7'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
           </div>
-          
         </div>
       </section>
       <section className='flex align-middle'>
         <div className='flex flex-col justify-center w-1/2 m-32'>
           <div>
             <p className='text-[#FF5555]'>ADVANTAGES</p>
-            <h1 className='font-bold text-5xl mb-5'>Why Choose Uifry</h1>
+            <h1 className='font-bold text-5xl mb-5'>Why Choose Uifry?</h1>
           </div>
           <div className='flex align-middle my-2'>
             <img src="./Features/Group 35899.png" alt="" />

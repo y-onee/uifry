@@ -1,0 +1,14 @@
+.head3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.head3 img {
+    margin-right: 10px;
+    height: 25px;
+}
+
+.head3 h3 {
+    font-size: larger;
+    font-weight: 700;
+}

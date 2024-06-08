@@ -22,7 +22,7 @@ const Testimonials = () => {
             <h2 className='font-bold text-4xl mb-10'>The Best Financial Accounting App Ever!</h2>
             <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.”</p>
             <div className='my-5 flex w-32 justify-between'>
-              <img src="./Testimonials/Group 27.png" alt="" className='h-10 m-1  hover:blur-0 hover:h-12'/>
+              <img src="./Testimonials/Group 27.png" alt="" className='h-12 m-1  hover:blur-0 hover:h-12'/>
               <img src="./Testimonials/Group 28.png" alt="" className='h-10 m-1 blur-sm hover:blur-0 hover:h-12'/>
               <img src="./Testimonials/Group 29.png" alt="" className='h-10 m-1 blur-sm hover:blur-0 hover:h-12'/>
               <img src="./Testimonials/Group 30.png" alt="" className='h-10 m-1 blur-sm hover:blur-0 hover:h-12'/>
