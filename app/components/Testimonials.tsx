@@ -4,6 +4,7 @@ const Testimonials = () => {
   return (
     <main>
       <section className='m-10 flex flex-col align-center h-screen' >
+        <img className='absolute mt-96 pt-80' src="./Star 9.png" alt="" />
         <p className='text-center font-medium'>TESTIMONIAL</p>
         <h1 className='font-bold text-center text-5xl'>What Our Users  <br />Say About Us?</h1>
         <section className='flex h-screen'>

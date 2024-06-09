@@ -9,6 +9,9 @@ const Features = () => {
           <img className='absolute -z-40 -ml-8' src="./Features/Group 35930.png" alt="" />
           <img className='absolute h-3/4 mt-8 ml-8' src="./Features/Group 35898.png" alt="" />
           <img className='absolute w-96 mt-16 ml-48' src="./Features/iphone-13-Pro-Front.png" />
+          <img className='absolute mt-8 ml-12' src="./Star 2 (1).png" alt="" />
+          <img className='absolute right-0 mt-96 pt-96 ' src="./Star 5.png" alt="" />
+
 
         </div>
         <div className='flex flex-col mr-20'>
@@ -59,6 +62,8 @@ const Features = () => {
         </div>
       </section>
       <section className='flex h-screen'>
+        <img className='absolute ml-96 pl-80' src="./Star 6.png" alt="" />
+        <img className='absolute right-0 mt-96 pt-72 mr-80' src="./Star 7.png" alt="" />
         <div className='w-3/6 flex flex-col justify-center align-middle'>
 
           <img className='absolute h-3/4 mt-8 ml-8' src="./Testimonials/Group 35905 (4).png" alt="" />

@@ -3,9 +3,12 @@ import React from 'react'
 const Gallery = () => {
   return (
     <main>
-      <img src="./Testimonials/Group 1000002356 (1).png" alt="" className='absolute left-0 -ml-10 -z-40' />
+      <img src="./Testimonials/Group 1000002356 (1).png" alt="" className='absolute left-0 -mt-8 -ml-10 -z-40' />
       <section className=' flex column justify-center w-full min-h-screen'>
-
+        <img className='absolute mt-72 left-0 ml-12 ' src="./Star 10.png" alt="" />
+        <img className='absolute mt-16 mr-12 right-0' src="./Star 8 (1).png" alt="" />
+        <img className='absolute mt-48 ml-96' src="./Star 7 (1).png" alt="" />
+        <img className='absolute mt-96 pt-28 -ml-40' src="./Star 6 (1).png" alt="" />
         <img src="./Testimonials/Group 35905 (2).png" alt="" className='absolute left-0 mx-40 my-80' />
         <img src="./Testimonials/Group 1000004718.png" alt="" className='absolute right-0 mx-40 my-40' />
         <section className='flex bg-black w-full mx-40 my-40'>

@@ -42,12 +42,12 @@ const HeroPage = () => {
           <img src="./iPhone-13-Pro-Front (2).png" alt="" className='absolute top-16 right-40 h-[600px]' />
           <img src="./iPhone-13-Pro-Front (1).png" alt="" className='absolute top-0 right-64 h-[600px]' />
         </div>
-        {/* <div>
-          <img src="./Star 1.png" alt="" />
-          <img src="./Star 2.png" alt="" />
-          <img src="./Star 3.png" alt="" />
-          <img src="./Star 8.png" alt="" />
-        </div> */}
+        <div>
+          <img className='absolute right-0 mr-8 -mt-16' src="./Star 1.png" alt="" />
+          <img className='absolute mt-96 pt-8 -ml-16 ' src="./Star 2.png" alt="" />
+          <img className='absolute left-0 ml-12' src="./Star 3.png" alt="" />
+          <img className='absolute left-0 mt-96 ml-72' src="./Star 8.png" alt="" />
+        </div>
       </section>
     </main>
 

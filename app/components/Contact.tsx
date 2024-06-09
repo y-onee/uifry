@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <main className={style.all}>
       <section className='flex flex-col'>
-        <section className='flex justify-between mx-32'>
+        <section className='flex justify-between mx-40'>
           <div>
             <h1 className='flex font-bold text-3xl'><img className='m-1' src="./Testimonials/Frame.png" alt="" />uifry</h1>
             <h2 className='flex'><img className='m-3' src="./Testimonials/Vector.png" alt="" />help@frybix.com</h2>
@@ -44,10 +44,12 @@ const Contact = () => {
               <input className="bg-black text-white p-3 px-7 rounded font-medium" type="submit" value="Subscribe" />
             </form>
           </div>
-          <div></div>
+
 
         </section>
-        <img className='mt-10' src="./Testimonials/Frame (1).png" alt="" />
+        <div className='flex justify-center'>
+          <img className='mt-10 w-2/3 ' src="./Testimonials/Frame (1).png" alt="" />
+        </div>
       </section>
     </main>
   )
