@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Ensure that next.js nd tailwind css is installed on the machine
+
 ## Getting Started
 
 First, run the development server:
