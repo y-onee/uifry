@@ -2,13 +2,13 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <main className='font-clash-display-bold'>
+    <main className='font-clash-display-bold min-w-[932px]'>
       <section className='m-10 flex flex-col align-center h-screen' >
         <img className='absolute mt-96 pt-80' src="./Star 9.png" alt="" />
         <p className='text-center font-medium font-clash-display-medium'>T E S T I M O N I A L</p>
         <h1 className='font-bold text-center text-5xl'>What Our Users  <br />Say About Us?</h1>
-        <section className='flex h-screen'>
-          <div className='lg:w-3/6'>
+        <section className='flex h-screen flex-col lg:flex-row items-center'>
+          <div className='relative w-3/6'>
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none mt-48 ml-40 h-72' src="./Testimonials/Group 1000002356 (1).png" alt="" />
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none h-3/4 mt-8 ml-8' src="./Testimonials/Group 35905 (4).png" alt="" />
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none mt-52 ml-52 h-80' src="./Testimonials/Ellipse 41.png" alt="" />
@@ -18,7 +18,6 @@ const Testimonials = () => {
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none mt-24 ml-24 h-56' src="./Testimonials/Ellipse 44.png" alt="" />
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none mt-96 ml-28 h-60' src="./Testimonials/Ellipse 45.png" alt="" />
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none mt-96 ml-96 h-56' src="./Testimonials/Ellipse 43.png" alt="" />
-
 
           </div>
           <div className='lg:w-3/6 flex flex-col leading-loose justify-center align-baseline'>

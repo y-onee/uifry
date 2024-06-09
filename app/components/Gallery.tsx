@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-    <main className='font-clash-display-bold'>
+    <main className='font-clash-display-bold min-w-[932px]'>
       <img src="./Testimonials/Group 1000002356 (1).png" alt="" className='absolute left-0 -mt-8 -ml-10 -z-40' />
       <section className=' flex column justify-center w-full min-h-screen'>
         <img className='absolute mt-72 left-0 ml-12 ' src="./Star 10.png" alt="" />

@@ -4,9 +4,9 @@ import style from './Contact.module.css';
 const Contact = () => {
   return (
     <main className={style.all}>
-      <section className='flex flex-col font-clash-display-medium'>
+      <section className='flex flex-col font-clash-display-medium min-w-[932px]'>
         <section className='flex justify-between mx-40'>
-          <div className='mb:flex mb:flex-row'>
+          <div className='flex flex-row lg:flex-col'>
             <h1 className='flex font-bold text-3xl'><img className='m-1' src="./Testimonials/Frame.png" alt="" />uifry</h1>
             <h2 className='flex'><img className='m-3 h-5' src="./Testimonials/Vector.png" alt="" />help@frybix.com</h2>
             <h2 className='flex'><img className='m-3 h-5' src="./Testimonials/Vector (1).png" alt="" />+1 234 456 678 89</h2>

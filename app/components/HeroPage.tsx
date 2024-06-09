@@ -8,8 +8,8 @@ const HeroPage: React.FC = () => {
     setIsVisible(!isVisible)
   }
   return (
-    <main className='block font-clash-display-bold'>
-      <section className='fixed block w-full z-40 '>
+    <main className='block font-clash-display-bold min-w-[932px]'>
+      <section className='fixed block w-full z-40'>
         <nav className="w-100 flex items-center align-middle justify-center py-5 backdrop-blur-sm">
           <section className=" w-5/6 h-[60px] p-6 flex items-center justify-between">
 
@@ -43,12 +43,12 @@ const HeroPage: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className='flex justify-start align-middle ml-20'>
+      <section className='static flex flex-col lg:flex-row justify-start align-middle ml-20'>
         <div className='lg:w-3/5 mt-[80px] lg:bg-transparent sm:px-20'>
           <div>
             <img className='absolute h-80 -mt-12 -z-40 ml-32' src="./Group 35896.png" alt="" />
           </div>
-          <h1 className='mt-10 font-extrabold text-7xl justify-center transition-opacity duration-1000 ease-in-out'>Make The Best <br />Financial Decisions</h1>
+          <h1 className='mt-10 font-extrabold text-6xl justify-center transition-opacity duration-1000 ease-in-out'>Make The Best Financial Decisions</h1>
           <p className='my-7 text-lg text-gray-500 w-5/6 transition-opacity duration-1000 ease-in-out font-clash-display-light'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
           <div className='flex'>
             <button className="mr-2 hover:border-2 hover:bg-white hover:text-black flex justify-center align-middle bg-black text-white p-3 px-7 rounded font-medium font-clash-display-medium">Get Started <img className='my-2 ml-3' src="./Vector 1.png" alt="" /></button>
@@ -56,12 +56,12 @@ const HeroPage: React.FC = () => {
           </div>
           <img className='' src="./Group 35924.png" alt="" />
         </div>
-        <div className=''>
-          <img src="./Group 35899.png" alt="" className='absolute blur-sm -z-40 lg:blur-none -top-12 right-24 h-128' />
-          <img src="./Group 35887.png" alt="" className='absolute blur-sm -z-40 top-12 lg:blur-none right-32 h-[600px]' />
-          <img src="./iPhone-13-Pro-Front (1).png" alt="" className='hover:h-[650px] transition-all delay-75 lg:z-0 absolute blur-sm -z-40 lg:blur-none top-40 right-16 h-[600px]' />
-          <img src="./iPhone-13-Pro-Front (2).png" alt="" className='hover:h-[650px] transition-all delay-75 absolute blur-sm lg:z-0 -z-40 lg:blur-none top-28 right-40 h-[600px]' />
-          <img src="./iPhone-13-Pro-Front (1).png" alt="" className='hover:h-[650px] transition-all delay-75 absolute blur-sm lg:z-0 -z-40 lg:blur-none top-12 right-64 h-[600px]' />
+        <div className='h-screen relative lg:static'>
+          <img src="./Group 35899.png" alt="" className='absolute -top-12 right-24 h-128' />
+          <img src="./Group 35887.png" alt="" className='absolute top-12 right-32 h-[600px]' />
+          <img src="./iPhone-13-Pro-Front (1).png" alt="" className='hover:h-[650px] transition-all delay-75 lg:z-0 absolute top-40 right-16 h-[600px]' />
+          <img src="./iPhone-13-Pro-Front (2).png" alt="" className='hover:h-[650px] transition-all delay-75 absolute top-28 right-40 h-[600px]' />
+          <img src="./iPhone-13-Pro-Front (1).png" alt="" className='hover:h-[650px] transition-all delay-75 absolute top-12 right-64 h-[600px]' />
         </div>
         <div>
           <img className='absolute lg:z-50 right-0 mr-8 mt-8' src="./Star 1.png" alt="" />
