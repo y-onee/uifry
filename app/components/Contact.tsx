@@ -40,12 +40,12 @@ const Contact = () => {
             <h1 className={style.head1}>Newsletter</h1>
             <a href="">Stay Up To Date</a>
             <form action="submit">
-              <input className='p-3' type="email" name="email" id="" placeholder='Your email'/>
+              <input className='p-3' type="email" name="email" id="" placeholder='Your email' />
               <input className="bg-black text-white p-3 px-7 rounded font-medium" type="submit" value="Subscribe" />
             </form>
           </div>
           <div></div>
-          
+
         </section>
         <img className='mt-10' src="./Testimonials/Frame (1).png" alt="" />
       </section>

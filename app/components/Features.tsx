@@ -6,10 +6,10 @@ const Features = () => {
     <main className='block min-h-screen'>
       <section className='h-screen flex justify-center align-middle'>
         <div className='w-3/6'>
-          <img className='absolute -z-40 -ml-8' src="./Features/Group 35930.png" alt=""/>
-          <img className='absolute h-3/4 mt-8 ml-8' src="./Features/Group 35898.png" alt=""/>
-          <img className='absolute w-96 mt-16 ml-48' src="./Features/iphone-13-Pro-Front.png"/>
-          
+          <img className='absolute -z-40 -ml-8' src="./Features/Group 35930.png" alt="" />
+          <img className='absolute h-3/4 mt-8 ml-8' src="./Features/Group 35898.png" alt="" />
+          <img className='absolute w-96 mt-16 ml-48' src="./Features/iphone-13-Pro-Front.png" />
+
         </div>
         <div className='flex flex-col mr-20'>
           <p className='text-[#FF5555]'>FEATURES</p>
@@ -48,7 +48,7 @@ const Features = () => {
             <h3 className='my-1 justify-center font-bold text-3xl ml-5'>Clever Notifications</h3>
           </div>
           <div className='my-4  text-gray-600 leading-7'>
-          Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.
+            Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.
           </div>
         </div>
         <div>
@@ -60,7 +60,7 @@ const Features = () => {
       </section>
       <section className='flex h-screen'>
         <div className='w-3/6 flex flex-col justify-center align-middle'>
-          
+
           <img className='absolute h-3/4 mt-8 ml-8' src="./Testimonials/Group 35905 (4).png" alt="" />
           <img className='absolute mt-16 ml-24 -z-40' src="./Features/Group 35932.png" alt="" />
           <img className='absolute w-96 mt-32 ml-48' src="./Features/iPhone-13-Pro-Front (2).png" alt="" />
@@ -72,7 +72,7 @@ const Features = () => {
             <h3 className='flex align-middle my-1 justify-center font-bold text-3xl ml-5'>Fully Customizable</h3>
           </div>
           <div className='my-4  text-gray-600'>
-          Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.
+            Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.
           </div>
         </div>
       </section>

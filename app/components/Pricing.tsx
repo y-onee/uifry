@@ -9,36 +9,36 @@ const Pricing = () => {
         <h1 className='font-bold text-5xl mb-5'>Frequently Asked Questions</h1>
       </section>
       <section className='flex justify-center'>
-      <section className='flex w-3/4 items-center justify-center'>
-        <div>
-          <div className={style.red}>
-            <h2 className={style.head}>The best financial accounting app ever!</h2>
-            <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+        <section className='flex w-3/4 items-center justify-center'>
+          <div>
+            <div className={style.red}>
+              <h2 className={style.head}>The best financial accounting app ever!</h2>
+              <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+            </div>
+            <div className={style.white}>
+              <h2 className={style.head}>The best financial accounting app ever!</h2>
+              <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+            </div>
+            <div className={style.red}>
+              <h2 className={style.head}>The best financial accounting app ever!</h2>
+              <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+            </div>
           </div>
-          <div className={style.white}>
-            <h2 className={style.head}>The best financial accounting app ever!</h2>
-            <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+          <div>
+            <div className={style.white}>
+              <h2 className={style.head}>The best financial accounting app ever!</h2>
+              <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+            </div>
+            <div className={style.red}>
+              <h2 className={style.head}>The best financial accounting app ever!</h2>
+              <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+            </div>
+            <div className={style.white}>
+              <h2 className={style.head}>the best financial accounting app ever!</h2>
+              <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+            </div>
           </div>
-          <div className={style.red}>
-            <h2 className={style.head}>The best financial accounting app ever!</h2>
-            <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
-          </div>
-        </div>
-        <div>
-          <div className={style.white}>
-            <h2 className={style.head}>The best financial accounting app ever!</h2>
-            <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
-          </div>
-          <div className={style.red}>
-            <h2 className={style.head}>The best financial accounting app ever!</h2>
-            <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
-          </div>
-          <div className={style.white}>
-            <h2 className={style.head}>the best financial accounting app ever!</h2>
-            <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
-          </div>
-        </div>
-      </section>
+        </section>
       </section>
     </main>
   )
