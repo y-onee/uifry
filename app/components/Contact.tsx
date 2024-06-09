@@ -8,10 +8,10 @@ const Contact = () => {
         <section className='flex justify-between mx-40'>
           <div className='mb:flex mb:flex-row'>
             <h1 className='flex font-bold text-3xl'><img className='m-1' src="./Testimonials/Frame.png" alt="" />uifry</h1>
-            <h2 className='flex'><img className='m-3' src="./Testimonials/Vector.png" alt="" />help@frybix.com</h2>
-            <h2 className='flex'><img className='m-3' src="./Testimonials/Vector (1).png" alt="" />+1 234 456 678 89</h2>
+            <h2 className='flex'><img className='m-3 h-5' src="./Testimonials/Vector.png" alt="" />help@frybix.com</h2>
+            <h2 className='flex'><img className='m-3 h-5' src="./Testimonials/Vector (1).png" alt="" />+1 234 456 678 89</h2>
           </div>
-          <div className={style.divSreen}>
+          <div className='hidden lg:block'>
             <h1 className={style.head1}>Links</h1>
             <ul>
               <li><a href="">Home</a></li>
@@ -20,7 +20,7 @@ const Contact = () => {
               <li><a href="">Blog</a></li>
             </ul>
           </div>
-          <div className={style.divSreen}>
+          <div className='hidden lg:block'>
             <h1 className={style.head1}>Legal</h1>
             <ul>
               <li><a href="">Terms Of Use</a></li>
@@ -28,7 +28,7 @@ const Contact = () => {
               <li><a href="">Cookies Policy</a></li>
             </ul>
           </div>
-          <div className={style.divSreen}>
+          <div className='hidden lg:block'>
             <h1 className={style.head1}>Product</h1>
             <ul>
               <li><a href="">Take Tour</a></li>
@@ -36,7 +36,7 @@ const Contact = () => {
               <li><a href="">Reviews</a></li>
             </ul>
           </div>
-          <div className={style.divSreen}>
+          <div className='hidden lg:block'>
             <h1 className={style.head1}>Newsletter</h1>
             <a href="">Stay Up To Date</a>
             <form action="submit">

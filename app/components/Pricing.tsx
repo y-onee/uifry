@@ -4,7 +4,7 @@ import style from './Pricing.module.css';
 const Pricing = () => {
   return (
     <main >
-      <section className='w-2/6 mx-48'>
+      <section className='lg:w-2/6 mx-8 lg:mx-48'>
         <img className='absolute mt-16 ml-96 pl-56' src="./Star 11.png" alt="" />
         <p className='text-[#FF5555]'>FAQ</p>
         <h1 className='font-bold text-5xl mb-5'>Frequently Asked Questions</h1>

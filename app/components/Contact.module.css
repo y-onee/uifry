@@ -3,12 +3,6 @@
     font-weight: 500;
 }
 
-.divScreen {
-    @media screen and (max-width: 1020px) {
-        display: hidden;
-    }
-}
-
 .all {
     font-size: medium;
     line-height: 40px;

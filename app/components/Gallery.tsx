@@ -21,11 +21,11 @@ const Gallery = () => {
 
           </div>
           <div className='flex items-center'>
-            <img className='absolute h-64 right-0 mr-40 mt-36' src="./Testimonials/Group 35932 (1).png" alt="" />
-            <img src="./Testimonials/3.png" alt="" className='absolute right-0 mx-40 -mt-4 h-2/5' />
-            <img src="./Testimonials/2 (1).png" alt="" className='absolute right-20 mx-32 mt-16 h-2/5' />
+            <img className='lg:block hidden lg:absolute h-64 right-0 mr-40 mt-36' src="./Testimonials/Group 35932 (1).png" alt="" />
+            <img src="./Testimonials/3.png" alt="" className='lg:block hidden lg:absolute right-0 mx-40 -mt-4 h-2/5' />
+            <img src="./Testimonials/2 (1).png" alt="" className='lg:block hidden lg:absolute right-20 mx-32 mt-16 h-2/5' />
 
-            <img src="./Testimonials/1.png" alt="" className='absolute right-40 mr-40 mt-32 h-2/5' />
+            <img src="./Testimonials/1.png" alt="" className='lg:block hidden lg:absolute right-40 mr-40 mt-32 h-2/5' />
 
 
           </div>
