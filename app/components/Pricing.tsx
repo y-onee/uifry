@@ -35,7 +35,7 @@ const Pricing = () => {
               <p className='font-clash-display-light'>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
             </div>
             <div className={style.white}>
-              <h2 className={style.head}>the best financial accounting app ever!</h2>
+              <h2 className={style.head}>The best financial accounting app ever!</h2>
               <p className='font-clash-display-light'>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
             </div>
           </div>
