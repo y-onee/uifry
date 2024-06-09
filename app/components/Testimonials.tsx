@@ -8,7 +8,7 @@ const Testimonials = () => {
         <p className='text-center font-medium font-clash-display-medium'>T E S T I M O N I A L</p>
         <h1 className='font-bold text-center text-5xl'>What Our Users  <br />Say About Us?</h1>
         <section className='flex h-screen flex-col lg:flex-row items-center'>
-          <div className='relative w-3/6'>
+          <div className='relative w-3/6 lg:static'>
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none mt-48 ml-40 h-72' src="./Testimonials/Group 1000002356 (1).png" alt="" />
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none h-3/4 mt-8 ml-8' src="./Testimonials/Group 35905 (4).png" alt="" />
             <img className='absolute blur-sm lg:z-0 -z-40 lg:blur-none mt-52 ml-52 h-80' src="./Testimonials/Ellipse 41.png" alt="" />
