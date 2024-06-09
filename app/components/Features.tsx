@@ -8,7 +8,7 @@ const Features = () => {
         <div className='w-3/6'>
           <img className='absolute blur-sm -z-40 lg:blur-none -ml-8' src="./Features/Group 35930.png" alt="" />
           <img className='absolute blur-sm -z-40 lg:blur-none h-3/4 mt-8 ml-8' src="./Features/Group 35898.png" alt="" />
-          <img className='absolute hover:scale-110 transform transition-all delay-75 blur-sm lg:z-0 -z-40 lg:blur-none w-96 mt-16 ml-48' src="./Features/iphone-13-Pro-Front (2).png" />
+          <img className='absolute hover:scale-110 transform transition-all delay-75 blur-sm lg:z-0 -z-40 lg:blur-none w-96 mt-16 ml-48' src="./Features/iphone-13-Pro-Front (2).png" alt="Hello"/>
           <img className='absolute blur-sm -z-40 lg:blur-none mt-8 ml-12' src="./Star 2 (1).png" alt="" />
           <img className='absolute blur-sm -z-40 lg:blur-none right-0 mt-96 pt-96 ' src="./Star 5.png" alt="" />
 
