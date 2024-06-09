@@ -54,7 +54,6 @@ const config: Config = {
           // 'ClashDisplay-Variable',
           
         ],
-        clash: ["var{--font-clash}"],
       },
     },
   },
