@@ -14,16 +14,47 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        'clash-display': [
+        'clash-display-bold': [
+          // 'ClashDisplay-Extralight',
+          // 'ClashDisplay-Light',
+          // 'ClashDisplay-Regular',
+          // 'ClashDisplay-Medium',
+          // 'ClashDisplay-Semibold',
+          'ClashDisplay-Bold',
+          'ClashDisplay-Variable',
+          
+        ],
+        'clash-display-light': [
+          // 'ClashDisplay-Extralight',
+          'ClashDisplay-Light',
+          // 'ClashDisplay-Regular',
+          // 'ClashDisplay-Medium',
+          // 'ClashDisplay-Semibold',
+          // 'ClashDisplay-Bold',
+          // 'ClashDisplay-Variable',
+          
+        ],
+        'clash-display-medium': [
           // 'ClashDisplay-Extralight',
           // 'ClashDisplay-Light',
           // 'ClashDisplay-Regular',
           'ClashDisplay-Medium',
-          'ClashDisplay-Semibold',
-          'ClashDisplay-Bold',
-          'ClashDisplay-Variable',
-          'sans-serif',
+          // 'ClashDisplay-Semibold',
+          // 'ClashDisplay-Bold',
+          // 'ClashDisplay-Variable',
+          
         ],
+        'clash-display-semibold': [
+          // 'ClashDisplay-Extralight',
+          // 'ClashDisplay-Light',
+          // 'ClashDisplay-Regular',
+          // 'ClashDisplay-Medium',
+          'ClashDisplay-Semibold',
+          // 'ClashDisplay-Bold',
+          // 'ClashDisplay-Variable',
+          
+        ],
+        clash: ["var{--font-clash}"],
       },
     },
   },

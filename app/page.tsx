@@ -5,6 +5,8 @@ import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
+import "../public/Fonts/WEB/css/clash-display.css"
+
 
 export default function Home() {
   return (

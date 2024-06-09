@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-    <main>
+    <main className='font-clash-display-bold'>
       <img src="./Testimonials/Group 1000002356 (1).png" alt="" className='absolute left-0 -mt-8 -ml-10 -z-40' />
       <section className=' flex column justify-center w-full min-h-screen'>
         <img className='absolute mt-72 left-0 ml-12 ' src="./Star 10.png" alt="" />
@@ -15,8 +15,8 @@ const Gallery = () => {
           <div className='flex items-center '>
             <div className='ml-20'>
               <h1 className='m-10 text-white font-bold text-5xl'>Ready To Get Started?</h1>
-              <p className='text-white m-10 font-extralight text-lg'>Risus habitant leo egestas mauris diam eget morbi tempus<br /> vulputate.</p>
-              <button className='m-10 p-4 rounded flex text-light items-center bg-white text-black'>Download App<img className='ml-3' src="./Testimonials/Vector (2).png" alt="" /></button>
+              <p className='text-white m-10 font-extralight text-lg font-clash-display-light'>Risus habitant leo egestas mauris diam eget morbi tempus<br /> vulputate.</p>
+              <button className='m-10 p-4 rounded flex text-light items-center bg-white text-black font-clash-display-medium'>Download App<img className='ml-3' src="./Testimonials/Vector (2).png" alt="" /></button>
             </div>
 
           </div>

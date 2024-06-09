@@ -4,7 +4,7 @@ import style from './Contact.module.css';
 const Contact = () => {
   return (
     <main className={style.all}>
-      <section className='flex flex-col'>
+      <section className='flex flex-col font-clash-display-medium'>
         <section className='flex justify-between mx-40'>
           <div className='mb:flex mb:flex-row'>
             <h1 className='flex font-bold text-3xl'><img className='m-1' src="./Testimonials/Frame.png" alt="" />uifry</h1>
@@ -14,26 +14,26 @@ const Contact = () => {
           <div className='hidden lg:block'>
             <h1 className={style.head1}>Links</h1>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Bookings</a></li>
-              <li><a href="">Blog</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Home</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">About Us</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Bookings</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Blog</a></li>
             </ul>
           </div>
           <div className='hidden lg:block'>
             <h1 className={style.head1}>Legal</h1>
             <ul>
-              <li><a href="">Terms Of Use</a></li>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Cookies Policy</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Terms Of Use</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Privacy Policy</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Cookies Policy</a></li>
             </ul>
           </div>
           <div className='hidden lg:block'>
             <h1 className={style.head1}>Product</h1>
             <ul>
-              <li><a href="">Take Tour</a></li>
-              <li><a href="">Live Chat</a></li>
-              <li><a href="">Reviews</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Take Tour</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Live Chat</a></li>
+              <li className='hover:text-[#FF5555]'><a href="">Reviews</a></li>
             </ul>
           </div>
           <div className='hidden lg:block'>

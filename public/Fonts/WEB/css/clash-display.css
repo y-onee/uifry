@@ -21,7 +21,7 @@
   src: url('../fonts/ClashDisplay-Extralight.woff2') format('woff2'),
        url('../fonts/ClashDisplay-Extralight.woff') format('woff'),
        url('../fonts/ClashDisplay-Extralight.ttf') format('truetype');
-  font-weight: 200;
+  font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
@@ -57,7 +57,7 @@
   src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
        url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
        url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
-  font-weight: 600;
+  font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
@@ -66,7 +66,7 @@
   src: url('../fonts/ClashDisplay-Bold.woff2') format('woff2'),
        url('../fonts/ClashDisplay-Bold.woff') format('woff'),
        url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
-  font-weight: 700;
+  font-weight: 900;
   font-display: swap;
   font-style: normal;
 }
