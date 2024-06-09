@@ -3,9 +3,9 @@ import style from './Features.module.css'
 
 const Features = () => {
   return (
-    <main className='block min-h-screen font-clash-display-bold'>
-      <section className='h-screen flex justify-center align-middle'>
-        <div className='w-3/6'>
+    <main className='block min-h-screen font-clash-display-bold min-w-[932px]'>
+      <section className='h-screen flex flex-row justify-center align-middle'>
+        <div className='w-1/2'>
           <div className='relative lg:static'>
             <img className='absolute blur-sm -z-40 lg:blur-none -ml-8' src="./Features/Group 35930.png" alt="" />
             <img className='absolute blur-sm -z-40 lg:blur-none h-3/4 mt-8 ml-8' src="./Features/Group 35898.png" alt="" />
@@ -13,8 +13,6 @@ const Features = () => {
             <img className='absolute blur-sm -z-40 lg:blur-none mt-8 ml-12' src="./Star 2 (1).png" alt="" />
             <img className='absolute blur-sm -z-40 lg:blur-none right-0 mt-96 pt-96 ' src="./Star 5.png" alt="" />
           </div>
-
-
         </div>
         <div className='flex flex-col lg:mr-20 lg:1/2 p-20 lg:p-0'>
           <p className='text-[#FF5555] font-clash-display-medium'>F E A T U R E S</p>
