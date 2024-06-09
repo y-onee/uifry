@@ -22,6 +22,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Design Choices
+
+The project has been created in NextJS and styling has been added via TailwindCSS and it has been deployed on vercel.
+
+## Figma Link
+(https://www.figma.com/design/Fkt2CSqUi151tlc5RrIpP9/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=1-29&t=AacXM6IsMt0XVPaU-0)
+
+## Vercel Link
+(https://uifry-seven-ebon.vercel.app/)
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
